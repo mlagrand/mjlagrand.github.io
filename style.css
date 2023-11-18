@@ -1,0 +1,74 @@
+
+body {
+    background-color: black;
+}
+
+H1 { 
+    color: black;
+    text-align: center;
+}
+
+H2 {
+    color: black;
+    text-align: center;
+}
+ul { 
+    background-color: lightgreen;
+    width: 150px;
+    height: 120px;
+    margin: 20px;
+}
+
+#foto {
+    margin: 0px;
+    filter: grayscale(0%);
+    padding-left: 35px;
+    
+}
+
+#foto:hover {
+    filter: grayscale(80%);
+}
+
+#contact {
+    animation: flicker 6s infinite alternate;
+    color: black;
+    padding-left: 10px;
+    
+}
+
+@keyframes flicker {
+    
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+        0 0 4px green,
+        0 0 11px green,
+        0 0 19px green,
+        0 0 40px #0fa,
+        0 0 80px #0fa,
+        0 0 90px #0fa,
+        0 0 100px #0fa,
+        0 0 150px #0fa;
+    
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+  }
+  
+
+#balk {
+    background: linear-gradient(to right, black, black 5%, green 30%, green 80%, green 80%, black 100%);
+}
+
+
+  
+.form {
+    border: 3px solid black;
+}
+
+{
+    <img scr="bandfoto2.jpg" alt="bandfoto2" width:300px> 
+}
