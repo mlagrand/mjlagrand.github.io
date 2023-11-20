@@ -58,6 +58,10 @@ ul {
     }    
   }
   
+#socials {
+    float: left;
+
+}
 
 #balk {
     background: linear-gradient(to right, black, black 5%, green 30%, green 80%, green 80%, black 100%);
@@ -69,4 +73,20 @@ ul {
     border: 3px solid black;
 }
 
+#agenda {
+    padding-left: 200px;
+    width: 50%;
+    float: right;
+    margin-top: 30px;
+}
 
+table {
+    border: 1px solid black;
+}
+
+td, th {
+    background-color: green;
+    border: 1px solid black;
+    padding-left: 5px;
+    
+}
